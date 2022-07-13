@@ -611,6 +611,14 @@ video {
   display: none;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -629,6 +637,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -722,6 +734,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
